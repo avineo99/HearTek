@@ -343,10 +343,10 @@ button#ScrollToTop:hover {
 .sub-banner .carousel-item::before{
     display: none;
 }
-.sub-banner .carousel-item{
+.sub-banner .sub-banner-item{
     height: 500px;
 }
-.sub-banner .carousel-item::after{
+.sub-banner .sub-banner-item::after{
     content: '';
     position: absolute; 
     top: 0;
@@ -563,6 +563,9 @@ button#ScrollToTop:hover {
     .welcome-sec::before {
         height: 300px;
         width: 70%;
+    }
+    .sub-banner .sub-banner-item{
+        height: 320px;
     }
 }
 @media(max-width:575px){
