@@ -336,7 +336,9 @@ button#ScrollToTop:hover {
     width: 800px;
     z-index: -1;
 }
-
+.audiology-heading h2.text-primary{
+    color: #025796 !important;
+}
 @media(max-width:1500px){
     .navbar-brand {
         width: 200px;
