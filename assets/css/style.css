@@ -339,6 +339,25 @@ button#ScrollToTop:hover {
 .audiology-heading h2.text-primary{
     color: #025796 !important;
 }
+
+.sub-banner .carousel-item::before{
+    display: none;
+}
+.sub-banner .carousel-item{
+    height: 500px;
+}
+.sub-banner .carousel-item::after{
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255 255 255 / 20%);
+}
+.sub-banner .container{
+    z-index: 9;
+}
 @media(max-width:1500px){
     .navbar-brand {
         width: 200px;
