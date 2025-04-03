@@ -358,6 +358,9 @@ button#ScrollToTop:hover {
 .sub-banner .container{
     z-index: 9;
 }
+.audio-img {
+    height: 260px;
+}
 @media(max-width:1500px){
     .navbar-brand {
         width: 200px;
@@ -496,6 +499,9 @@ button#ScrollToTop:hover {
     }
     .footer-social ul li a {
         font-size: 30px;
+    }
+    .audio-img {
+        height: 180px;
     }
 }
 
